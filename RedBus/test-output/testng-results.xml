@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45151" started-at="2020-09-19T11:43:16Z" finished-at="2020-09-19T11:44:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="45151" started-at="2020-09-19T11:43:16Z" finished-at="2020-09-19T11:44:01Z">
+      <class name="com.Redbus.TestCases.LoginTestRedbus">
+        <test-method status="PASS" signature="setuplogin()[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@61832929]" name="setuplogin" is-config="true" duration-ms="1399" started-at="2020-09-19T17:13:15Z" finished-at="2020-09-19T17:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuplogin -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@61832929]" name="setup" is-config="true" duration-ms="17676" started-at="2020-09-19T17:13:16Z" finished-at="2020-09-19T17:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginpage()[pri:1, instance:com.Redbus.TestCases.LoginTestRedbus@61832929]" name="loginpage" duration-ms="17419" started-at="2020-09-19T17:13:34Z" finished-at="2020-09-19T17:13:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method status="PASS" signature="Screenshot(org.testng.ITestResult)[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@61832929]" name="Screenshot" is-config="true" duration-ms="2228" started-at="2020-09-19T17:13:51Z" finished-at="2020-09-19T17:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginpage status=SUCCESS method=LoginTestRedbus.loginpage()[pri:1, instance:com.Redbus.TestCases.LoginTestRedbus@61832929] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method status="PASS" signature="loginpage2()[pri:2, instance:com.Redbus.TestCases.LoginTestRedbus@61832929]" name="loginpage2" duration-ms="3345" started-at="2020-09-19T17:13:54Z" finished-at="2020-09-19T17:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage2 -->
+        <test-method status="PASS" signature="Screenshot(org.testng.ITestResult)[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@61832929]" name="Screenshot" is-config="true" duration-ms="200" started-at="2020-09-19T17:13:57Z" finished-at="2020-09-19T17:13:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginpage2 status=SUCCESS method=LoginTestRedbus.loginpage2()[pri:2, instance:com.Redbus.TestCases.LoginTestRedbus@61832929] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method status="PASS" signature="closeWeb()[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@61832929]" name="closeWeb" is-config="true" duration-ms="4202" started-at="2020-09-19T17:13:57Z" finished-at="2020-09-19T17:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWeb -->
+      </class> <!-- com.Redbus.TestCases.LoginTestRedbus -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

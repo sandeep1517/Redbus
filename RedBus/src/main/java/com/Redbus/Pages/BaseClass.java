@@ -44,8 +44,7 @@ public class BaseClass
 	@BeforeClass
      public void setup()
      {
-
- 	  driver=BrowersFactory.startApplication(driver,config.getBrowers(),config.getappUrl());	    
+      driver=BrowersFactory.startApplication(driver,config.getBrowers(),config.getappUrl());	    
      }
     @AfterClass
 	public void closeWeb() throws Exception

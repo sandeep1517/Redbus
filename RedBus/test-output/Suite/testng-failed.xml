@@ -6,9 +6,10 @@
       <class name="com.Redbus.TestCases.LoginTestRedbus">
         <methods>
           <include name="setup"/>
+          <include name="loginpage"/>
           <include name="Screenshot"/>
           <include name="setuplogin"/>
-          <include name="loginpage2"/>
+          <include name="closeWeb"/>
         </methods>
       </class> <!-- com.Redbus.TestCases.LoginTestRedbus -->
     </classes>

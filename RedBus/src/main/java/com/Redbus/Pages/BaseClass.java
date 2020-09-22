@@ -10,6 +10,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.Redbus.Utility.BrowersFactory;
 import com.Redbus.Utility.CaptureScreenshot;
@@ -40,7 +41,7 @@ public class BaseClass
 		  report.attachReporter(extent);
 		  
 	}
-
+   
 	@BeforeClass
      public void setup()
      {
@@ -67,7 +68,12 @@ public class BaseClass
     	}
     	report.flush();
     }
+    @AfterSuite
+    public void close()
+    {
+    	driver.quit();
+    }
     
 	
-
+   
 }

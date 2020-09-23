@@ -34,7 +34,7 @@ public class BrowersFactory
 			System.out.println("We do Not Support Driver==>>");
 		}
 
-        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);		
+       // driver.manage().timeouts().pageLoadTimeout(2, TimeUnit.SECONDS);		
 		driver.manage().window().maximize();
 		driver.get(appUrl);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

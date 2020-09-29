@@ -1,5 +1,6 @@
 package com.Redbus.Pages;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -20,6 +21,10 @@ public class TravelPages
 	@FindBy(className="VfPpkd-RLmnJb")  WebElement click1Tab;
 	@FindBy(name="password")WebElement passtab;
 	@FindBy(className="VfPpkd-RLmnJb")WebElement click2Tab;
+	@FindBy(xpath="//div[@class='T-I T-I-KE L3']") WebElement ComposeTab;
+	@FindBy(xpath="//textarea[@id=':vu']")WebElement tabSendMail; 
+	@FindBy(xpath="//div[@id=':v7']")WebElement textSendMail; 
+	
 	@FindBy(xpath="//input[@placeholder='Search mail']") WebElement serchtab;
     @FindBy(xpath="//img[@class='gb_Ia gbii']") WebElement logtab;
     @FindBy(id="gb_71")WebElement logOut;
@@ -38,7 +43,17 @@ public class TravelPages
 	   serchtab.sendKeys("hi");;
 	   logtab.click();
 	   logOut.click();	
+	   Alert alt= driver.switchTo().alert();
+	   alt.accept();
 	}
 	
+	public void test3()
+	{
+		
+	  ComposeTab.click();
+	  tabSendMail.sendKeys("sandeep.mahadik1717@gmail.com"); 
+	  textSendMail.sendKeys("sansasn");
+	  
+	}
 	
 }

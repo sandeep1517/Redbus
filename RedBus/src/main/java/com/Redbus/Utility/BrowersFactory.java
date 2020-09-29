@@ -37,6 +37,7 @@ public class BrowersFactory
        // driver.manage().timeouts().pageLoadTimeout(2, TimeUnit.SECONDS);		
 		driver.manage().window().maximize();
 		driver.get(appUrl);
+		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		return driver;

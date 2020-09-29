@@ -5,11 +5,13 @@
     <classes>
       <class name="com.Redbus.TestCases.LoginTestRedbus">
         <methods>
+          <include name="login2"/>
           <include name="setup"/>
-          <include name="loginpage"/>
           <include name="Screenshot"/>
+          <include name="close"/>
           <include name="setuplogin"/>
           <include name="closeWeb"/>
+          <include name="loginpage2"/>
         </methods>
       </class> <!-- com.Redbus.TestCases.LoginTestRedbus -->
     </classes>

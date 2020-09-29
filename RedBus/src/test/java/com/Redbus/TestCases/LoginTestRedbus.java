@@ -13,6 +13,7 @@ import com.Redbus.Pages.TravelPages;
 import com.Redbus.Utility.BrowersFactory;
 import com.Redbus.Utility.ExcelDataProvider;
 import com.Redbus.Utility.HelperScreenShot;
+import com.aventstack.extentreports.MediaEntityModelProvider;
 
 public class LoginTestRedbus extends BaseClass
 {
@@ -28,8 +29,19 @@ public class LoginTestRedbus extends BaseClass
 	    tra.test1(excel.getStringdata("Login",0,0),excel.getStringdata("Login",0,1));
 	    logger.pass("login Success");
 	}
-
     @Test(priority=2)
+     public void login2()
+    {
+    	
+   	 logger=report.createTest("Send Mail Process");
+     logger.info("Created SendmailBox");	 
+     tra.test3();
+     logger.pass("Send Mail Successful");
+     	 
+     }
+    
+    
+    @Test(priority=3)
 	public void loginpage2() throws Exception //firefox
 	{
 	    logger=report.createTest("Log To Gmail_In_P");

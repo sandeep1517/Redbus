@@ -30,7 +30,7 @@ public class LoginTestRedbus extends BaseClass
 	    logger.pass("login Success");
 	}
     @Test(priority=2)
-     public void login2()
+     public void login2() throws Exception
     {
     	
    	 logger=report.createTest("Send Mail Process");

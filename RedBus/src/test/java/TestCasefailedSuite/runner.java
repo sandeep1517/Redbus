@@ -4,11 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.testng.TestNG;
+import org.testng.annotations.Test;
 
 public class runner {
 
-	
-	public static void main(String[] args) 
+	@Test
+	public void FailedTest() 
 	{
 	
 		TestNG runner=new TestNG();
@@ -26,3 +27,22 @@ public class runner {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

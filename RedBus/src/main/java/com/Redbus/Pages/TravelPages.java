@@ -22,7 +22,7 @@ public class TravelPages
 	@FindBy(name="password")WebElement passtab;
 	@FindBy(className="VfPpkd-RLmnJb")WebElement click2Tab;
 	@FindBy(xpath="//div[@class='T-I T-I-KE L3']") WebElement ComposeTab;
-	@FindBy(xpath="//textarea[@id=':vu']")WebElement tabSendMail; 
+	@FindBy(xpath="//textarea[@id=':rc']")WebElement tabSendMail; //textarea[@id=':rc']
 	@FindBy(xpath="//div[@id=':v7']")WebElement textSendMail; 
 	
 	@FindBy(xpath="//input[@placeholder='Search mail']") WebElement serchtab;
@@ -47,10 +47,11 @@ public class TravelPages
 	   alt.accept();
 	}
 	
-	public void test3()
+	public void test3() throws Exception
 	{
 		
 	  ComposeTab.click();
+	  Thread.sleep(2000);
 	  tabSendMail.sendKeys("sandeep.mahadik1717@gmail.com"); 
 	  textSendMail.sendKeys("sansasn");
 	  

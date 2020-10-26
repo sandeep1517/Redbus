@@ -5,6 +5,7 @@
     <classes>
       <class name="com.Redbus.TestCases.LoginTestRedbus">
         <methods>
+          <include name="login2"/>
           <include name="setup"/>
           <include name="Screenshot"/>
           <include name="close"/>

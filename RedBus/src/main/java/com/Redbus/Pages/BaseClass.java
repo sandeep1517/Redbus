@@ -72,7 +72,7 @@ public class BaseClass
     public void close()
     {
     	driver.quit();
-        //quite all browser tab
+        
     }
     
     

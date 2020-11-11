@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="96488" started-at="2020-10-19T18:02:33Z" finished-at="2020-10-19T18:04:09Z">
+  <suite name="Suite" duration-ms="114654" started-at="2020-11-11T06:22:18Z" finished-at="2020-11-11T06:24:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="96488" started-at="2020-10-19T18:02:33Z" finished-at="2020-10-19T18:04:09Z">
+    <test name="Test" duration-ms="114654" started-at="2020-11-11T06:22:18Z" finished-at="2020-11-11T06:24:12Z">
       <class name="com.Redbus.TestCases.LoginTestRedbus">
-        <test-method status="PASS" signature="setuplogin()[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="setuplogin" is-config="true" duration-ms="3677" started-at="2020-10-19T23:32:29Z" finished-at="2020-10-19T23:32:33Z">
+        <test-method status="PASS" signature="setuplogin()[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="setuplogin" is-config="true" duration-ms="3053" started-at="2020-11-11T11:52:15Z" finished-at="2020-11-11T11:52:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setuplogin -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="setup" is-config="true" duration-ms="43267" started-at="2020-10-19T23:32:33Z" finished-at="2020-10-19T23:33:16Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="setup" is-config="true" duration-ms="55313" started-at="2020-11-11T11:52:18Z" finished-at="2020-11-11T11:53:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginpage()[pri:1, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="loginpage" duration-ms="23148" started-at="2020-10-19T23:33:16Z" finished-at="2020-10-19T23:33:39Z">
+        <test-method status="PASS" signature="loginpage()[pri:1, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="loginpage" duration-ms="36453" started-at="2020-11-11T11:53:13Z" finished-at="2020-11-11T11:53:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpage -->
-        <test-method status="PASS" signature="Screenshot(org.testng.ITestResult)[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="Screenshot" is-config="true" duration-ms="2950" started-at="2020-10-19T23:33:39Z" finished-at="2020-10-19T23:33:42Z">
+        <test-method status="PASS" signature="Screenshot(org.testng.ITestResult)[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="Screenshot" is-config="true" duration-ms="2669" started-at="2020-11-11T11:53:50Z" finished-at="2020-11-11T11:53:52Z">
           <params>
             <param index="0">
               <value>
@@ -30,23 +30,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Screenshot -->
-        <test-method status="FAIL" signature="login2()[pri:2, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="login2" duration-ms="18369" started-at="2020-10-19T23:33:42Z" finished-at="2020-10-19T23:34:01Z">
+        <test-method status="FAIL" signature="login2()[pri:2, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="login2" duration-ms="11384" started-at="2020-11-11T11:53:52Z" finished-at="2020-11-11T11:54:04Z">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[Element is not visible
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-17JJ3GD', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9780, moz:profile: C:\Users\dude\AppData\Local..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c517fe8f-f658-4172-b21d-66a6b3b39d43]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5164, moz:profile: C:\Users\dude\AppData\Local..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c874aeaa-3357-4b3f-b6df-29dd37990a9d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element is not visible
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-17JJ3GD', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9780, moz:profile: C:\Users\dude\AppData\Local..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c517fe8f-f658-4172-b21d-66a6b3b39d43
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5164, moz:profile: C:\Users\dude\AppData\Local..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c874aeaa-3357-4b3f-b6df-29dd37990a9d
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -98,7 +98,7 @@ Session ID: c517fe8f-f658-4172-b21d-66a6b3b39d43
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login2 -->
-        <test-method status="PASS" signature="Screenshot(org.testng.ITestResult)[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="Screenshot" is-config="true" duration-ms="768" started-at="2020-10-19T23:34:01Z" finished-at="2020-10-19T23:34:01Z">
+        <test-method status="PASS" signature="Screenshot(org.testng.ITestResult)[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="Screenshot" is-config="true" duration-ms="869" started-at="2020-11-11T11:54:04Z" finished-at="2020-11-11T11:54:04Z">
           <params>
             <param index="0">
               <value>
@@ -109,23 +109,23 @@ Session ID: c517fe8f-f658-4172-b21d-66a6b3b39d43
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Screenshot -->
-        <test-method status="FAIL" signature="loginpage2()[pri:3, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="loginpage2" duration-ms="2711" started-at="2020-10-19T23:34:01Z" finished-at="2020-10-19T23:34:04Z">
+        <test-method status="FAIL" signature="loginpage2()[pri:3, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="loginpage2" duration-ms="2696" started-at="2020-11-11T11:54:04Z" finished-at="2020-11-11T11:54:07Z">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[No modal dialog is currently open
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-17JJ3GD', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9780, moz:profile: C:\Users\dude\AppData\Local..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c517fe8f-f658-4172-b21d-66a6b3b39d43]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5164, moz:profile: C:\Users\dude\AppData\Local..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c874aeaa-3357-4b3f-b6df-29dd37990a9d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: No modal dialog is currently open
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-17JJ3GD', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9780, moz:profile: C:\Users\dude\AppData\Local..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c517fe8f-f658-4172-b21d-66a6b3b39d43
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5164, moz:profile: C:\Users\dude\AppData\Local..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c874aeaa-3357-4b3f-b6df-29dd37990a9d
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -171,7 +171,7 @@ Session ID: c517fe8f-f658-4172-b21d-66a6b3b39d43
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpage2 -->
-        <test-method status="PASS" signature="Screenshot(org.testng.ITestResult)[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="Screenshot" is-config="true" duration-ms="184" started-at="2020-10-19T23:34:04Z" finished-at="2020-10-19T23:34:04Z">
+        <test-method status="PASS" signature="Screenshot(org.testng.ITestResult)[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="Screenshot" is-config="true" duration-ms="238" started-at="2020-11-11T11:54:07Z" finished-at="2020-11-11T11:54:07Z">
           <params>
             <param index="0">
               <value>
@@ -182,15 +182,15 @@ Session ID: c517fe8f-f658-4172-b21d-66a6b3b39d43
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Screenshot -->
-        <test-method status="PASS" signature="closeWeb()[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="closeWeb" is-config="true" duration-ms="4902" started-at="2020-10-19T23:34:04Z" finished-at="2020-10-19T23:34:09Z">
+        <test-method status="PASS" signature="closeWeb()[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="closeWeb" is-config="true" duration-ms="4922" started-at="2020-11-11T11:54:07Z" finished-at="2020-11-11T11:54:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWeb -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="close" is-config="true" duration-ms="1" started-at="2020-10-19T23:34:09Z" finished-at="2020-10-19T23:34:09Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.Redbus.TestCases.LoginTestRedbus@29774679]" name="close" is-config="true" duration-ms="0" started-at="2020-11-11T11:54:12Z" finished-at="2020-11-11T11:54:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.Redbus.TestCases.LoginTestRedbus -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

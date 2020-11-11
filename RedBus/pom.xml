@@ -54,12 +54,18 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M5</version>
-				<configuration>
+			</plugin>	
+			<plugin>	
+				 <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-compiler-plugin</artifactId>
+                 <version>3.8.1</version>
+			
+				
+				    <configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>./XMLfiles/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					
-				</configuration>
+					</configuration>
 			</plugin>
 			
 		</plugins>

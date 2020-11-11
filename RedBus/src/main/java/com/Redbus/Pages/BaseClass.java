@@ -39,6 +39,8 @@ public class BaseClass
 		  ExtentHtmlReporter extent=new ExtentHtmlReporter(new File("./Reports/gmail.html"));
 		  report=new ExtentReports();
 		  report.attachReporter(extent);
+	
+		 
 		  
 	}
    
